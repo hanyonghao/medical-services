@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hyh.annotation.Autowired</OriginalElement>
+  <nodes>
+    <node x="386.0" y="855.0">com.hyh.util.ClassUtil</node>
+    <node x="461.0" y="615.0">com.hyh.dao.ArchivesDao</node>
+    <node x="405.0" y="780.0">com.hyh.service.IndexService</node>
+    <node x="1004.0" y="440.0">com.hyh.controller.LifeController</node>
+    <node x="407.0" y="690.0">com.hyh.common.BaseService</node>
+    <node x="116.0" y="615.0">com.hyh.dao.HospitalDao</node>
+    <node x="714.0" y="615.0">com.hyh.dao.OrderDao</node>
+    <node x="379.0" y="440.0">com.hyh.entity.RecordEntity</node>
+    <node x="983.0" y="690.0">javax.servlet.Filter</node>
+    <node x="752.0" y="855.0">com.hyh.config.Global</node>
+    <node x="635.0" y="440.0">com.hyh.entity.UserEntity</node>
+    <node x="533.8125" y="270.0">com.hyh.annotation.EntityTable</node>
+    <node x="1752.375" y="270.0">com.hyh.annotation.EntityExcept</node>
+    <node x="285.0" y="780.0">com.hyh.service.UserService</node>
+    <node x="881.0" y="440.0">com.hyh.entity.DoctorEntity</node>
+    <node x="969.0" y="770.0">com.hyh.common.BaseFilter</node>
+    <node x="240.0" y="615.0">com.hyh.dao.RecordDao</node>
+    <node x="670.0" y="780.0">com.hyh.service.ArchivesService</node>
+    <node x="1319.25" y="0.0">java.lang.annotation.Annotation</node>
+    <node x="2022.0" y="440.0">com.hyh.controller.MedicalController</node>
+    <node x="414.25" y="515.0">com.hyh.common.BaseDao</node>
+    <node x="249.0" y="440.0">com.hyh.entity.MonitorEntity</node>
+    <node x="365.4375" y="270.0">com.hyh.common.BaseEntity</node>
+    <node x="139.0" y="780.0">com.hyh.service.MessageService</node>
+    <node x="0.0" y="440.0">com.hyh.entity.ArchivesEntity</node>
+    <node x="1735.0" y="440.0">com.hyh.controller.DoctorController</node>
+    <node x="1885.0" y="440.0">com.hyh.controller.UserController</node>
+    <node x="132.0" y="855.0">com.hyh.util.UUIDUtil</node>
+    <node x="1273.0" y="440.0">com.hyh.controller.IndexController</node>
+    <node x="1354.0416666666665" y="90.0">java.lang.annotation.Retention</node>
+    <node x="825.0" y="615.0">com.hyh.dao.MonitorDao</node>
+    <node x="530.0" y="780.0">com.hyh.service.MonitorService</node>
+    <node x="811.0" y="780.0">com.hyh.service.DoctorService</node>
+    <node x="0.0" y="780.0">com.hyh.service.MedicalService</node>
+    <node x="585.0" y="615.0">com.hyh.dao.MessageDao</node>
+    <node x="1415.0" y="440.0">com.hyh.controller.MessageController</node>
+    <node x="965.40625" y="270.0">com.hyh.annotation.Autowired</node>
+    <node x="1578.0" y="440.0">com.hyh.controller.MonitorController</node>
+    <node x="131.0" y="440.0">com.hyh.entity.OrderEntity</node>
+    <node x="1393.0" y="270.0">com.hyh.annotation.RequestMapping</node>
+    <node x="1614.375" y="270.0">com.hyh.common.BaseController</node>
+    <node x="0.0" y="855.0">com.hyh.database.Database</node>
+    <node x="259.0" y="855.0">com.hyh.util.GUIDUtil</node>
+    <node x="1324.2916666666665" y="170.0">java.lang.annotation.Target</node>
+    <node x="358.0" y="615.0">com.hyh.dao.UserDao</node>
+    <node x="504.0" y="440.0">com.hyh.entity.HospitalEntity</node>
+    <node x="745.0" y="440.0">com.hyh.entity.MessageEntity</node>
+    <node x="0.0" y="615.0">com.hyh.dao.DoctorDao</node>
+    <node x="1134.0" y="440.0">com.hyh.controller.MineController</node>
+    <node x="512.0" y="855.0">com.hyh.util.TextUtil</node>
+    <node x="632.0" y="855.0">com.hyh.util.AppUtil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hyh.controller.MessageController" target="com.hyh.annotation.RequestMapping">
+      <point x="-35.75" y="-15.0" />
+      <point x="-8.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.MonitorController" target="com.hyh.annotation.RequestMapping">
+      <point x="-34.25" y="-15.0" />
+      <point x="1612.25" y="380.0" />
+      <point x="1467.25" y="380.0" />
+      <point x="8.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.UserController" target="com.hyh.annotation.RequestMapping">
+      <point x="-29.25" y="-15.0" />
+      <point x="1914.25" y="350.0" />
+      <point x="1500.25" y="350.0" />
+      <point x="41.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.Autowired" target="java.lang.annotation.Target">
+      <point x="0.0" y="-15.0" />
+      <point x="1010.90625" y="240.0" />
+      <point x="1350.5416666666665" y="240.0" />
+      <point x="-8.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.OrderEntity" target="com.hyh.common.BaseEntity">
+      <point x="-24.5" y="-15.0" />
+      <point x="155.5" y="370.0" />
+      <point x="382.5" y="370.0" />
+      <point x="-28.4375" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.IndexController" target="com.hyh.annotation.RequestMapping">
+      <point x="-30.5" y="-15.0" />
+      <point x="1303.5" y="380.0" />
+      <point x="1434.25" y="380.0" />
+      <point x="-24.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.MessageEntity" target="com.hyh.common.BaseEntity">
+      <point x="-29.0" y="-15.0" />
+      <point x="774.0" y="350.0" />
+      <point x="439.375" y="350.0" />
+      <point x="28.4375" y="15.0" />
+    </edge>
+    <edge source="com.hyh.service.MonitorService" target="com.hyh.common.BaseService">
+      <point x="0.0" y="-15.0" />
+      <point x="590.0" y="760.0" />
+      <point x="471.92857142857144" y="760.0" />
+      <point x="14.428571428571445" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.MonitorEntity" target="com.hyh.common.BaseEntity">
+      <point x="-27.5" y="-15.0" />
+      <point x="276.5" y="380.0" />
+      <point x="393.875" y="380.0" />
+      <point x="-17.0625" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.RecordDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="289.0" y="585.0" />
+      <point x="440.5" y="585.0" />
+      <point x="-15.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.OrderDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="759.5" y="575.0" />
+      <point x="482.5" y="575.0" />
+      <point x="26.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.service.DoctorService" target="com.hyh.common.BaseService">
+      <point x="0.0" y="-15.0" />
+      <point x="867.5" y="740.0" />
+      <point x="500.7857142857143" y="740.0" />
+      <point x="43.28571428571428" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.DoctorDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="48.0" y="565.0" />
+      <point x="419.5" y="565.0" />
+      <point x="-36.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.EntityExcept" target="java.lang.annotation.Annotation">
+      <point x="33.66666666666674" y="-15.0" />
+      <point x="1836.5416666666667" y="250.0" />
+      <point x="1830.7083333333335" y="250.0" />
+      <point x="1830.7083333333335" y="50.0" />
+      <point x="1406.3333333333333" y="50.0" />
+      <point x="39.58333333333326" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.UserEntity" target="com.hyh.common.BaseEntity">
+      <point x="-22.5" y="-15.0" />
+      <point x="657.5" y="370.0" />
+      <point x="428.0" y="370.0" />
+      <point x="17.0625" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.Autowired" target="java.lang.annotation.Retention">
+      <point x="30.333333333333258" y="-15.0" />
+      <point x="1041.2395833333333" y="250.0" />
+      <point x="1404.7916666666665" y="250.0" />
+      <point x="7.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.LifeController" target="com.hyh.annotation.RequestMapping">
+      <point x="-27.5" y="-15.0" />
+      <point x="1031.5" y="360.0" />
+      <point x="1401.25" y="360.0" />
+      <point x="-57.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.service.IndexService" target="com.hyh.common.BaseService">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.HospitalEntity" target="com.hyh.annotation.EntityTable">
+      <point x="27.75" y="-15.0" />
+      <point x="5.9375" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.MessageDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="639.5" y="585.0" />
+      <point x="472.0" y="585.0" />
+      <point x="15.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.EntityTable" target="java.lang.annotation.Retention">
+      <point x="0.0" y="-15.0" />
+      <point x="581.3125" y="250.0" />
+      <point x="570.9791666666667" y="250.0" />
+      <point x="570.9791666666667" y="140.0" />
+      <point x="1361.2916666666665" y="140.0" />
+      <point x="-36.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.common.BaseFilter" target="javax.servlet.Filter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.hyh.service.MessageService" target="com.hyh.common.BaseService">
+      <point x="0.0" y="-15.0" />
+      <point x="202.0" y="750.0" />
+      <point x="428.6428571428571" y="750.0" />
+      <point x="-28.85714285714289" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.MonitorEntity" target="com.hyh.annotation.EntityTable">
+      <point x="27.5" y="-15.0" />
+      <point x="331.5" y="410.0" />
+      <point x="563.5" y="410.0" />
+      <point x="-17.8125" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.Autowired" target="java.lang.annotation.Annotation">
+      <point x="-30.33333333333337" y="-15.0" />
+      <point x="980.5729166666666" y="220.0" />
+      <point x="965.40625" y="220.0" />
+      <point x="965.40625" y="60.0" />
+      <point x="1343.0" y="60.0" />
+      <point x="-23.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.service.MedicalService" target="com.hyh.common.BaseService">
+      <point x="0.0" y="-15.0" />
+      <point x="59.5" y="740.0" />
+      <point x="414.2142857142857" y="740.0" />
+      <point x="-43.28571428571428" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.MineController" target="com.hyh.common.BaseController">
+      <point x="29.75" y="-15.0" />
+      <point x="1223.25" y="400.0" />
+      <point x="1636.5" y="400.0" />
+      <point x="-36.875" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.MineController" target="com.hyh.annotation.RequestMapping">
+      <point x="-29.75" y="-15.0" />
+      <point x="1163.75" y="370.0" />
+      <point x="1417.75" y="370.0" />
+      <point x="-41.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.EntityTable" target="java.lang.annotation.Annotation">
+      <point x="-31.66666666666663" y="-15.0" />
+      <point x="549.6458333333334" y="250.0" />
+      <point x="559.9791666666667" y="250.0" />
+      <point x="559.9791666666667" y="50.0" />
+      <point x="1327.1666666666667" y="50.0" />
+      <point x="-39.58333333333326" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.EntityExcept" target="java.lang.annotation.Target">
+      <point x="-33.66666666666674" y="-15.0" />
+      <point x="1769.2083333333333" y="230.0" />
+      <point x="1385.5416666666665" y="230.0" />
+      <point x="26.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.EntityExcept" target="java.lang.annotation.Retention">
+      <point x="0.0" y="-15.0" />
+      <point x="1802.875" y="220.0" />
+      <point x="1761.0257675438595" y="220.0" />
+      <point x="1761.0257675438595" y="140.0" />
+      <point x="1433.7916666666665" y="140.0" />
+      <point x="36.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.DoctorController" target="com.hyh.common.BaseController">
+      <point x="32.5" y="-15.0" />
+      <point x="1832.5" y="360.0" />
+      <point x="1695.5" y="360.0" />
+      <point x="22.125" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.ArchivesDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="513.0" y="595.0" />
+      <point x="461.5" y="595.0" />
+      <point x="5.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.MessageEntity" target="com.hyh.annotation.EntityTable">
+      <point x="29.0" y="-15.0" />
+      <point x="832.0" y="340.0" />
+      <point x="611.0" y="340.0" />
+      <point x="29.6875" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.RecordEntity" target="com.hyh.common.BaseEntity">
+      <point x="-26.25" y="-15.0" />
+      <point x="-5.6875" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.UserEntity" target="com.hyh.annotation.EntityTable">
+      <point x="22.5" y="-15.0" />
+      <point x="702.5" y="360.0" />
+      <point x="599.125" y="360.0" />
+      <point x="17.8125" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.IndexController" target="com.hyh.common.BaseController">
+      <point x="30.5" y="-15.0" />
+      <point x="1364.5" y="410.0" />
+      <point x="1651.25" y="410.0" />
+      <point x="-22.125" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.MessageController" target="com.hyh.common.BaseController">
+      <point x="35.75" y="-15.0" />
+      <point x="1522.25" y="420.0" />
+      <point x="1666.0" y="420.0" />
+      <point x="-7.375" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.UserController" target="com.hyh.common.BaseController">
+      <point x="29.25" y="-15.0" />
+      <point x="1972.75" y="340.0" />
+      <point x="1710.25" y="340.0" />
+      <point x="36.875" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.MonitorController" target="com.hyh.common.BaseController">
+      <point x="34.25" y="-15.0" />
+      <point x="7.375" y="15.0" />
+    </edge>
+    <edge source="com.hyh.service.UserService" target="com.hyh.common.BaseService">
+      <point x="0.0" y="-15.0" />
+      <point x="335.0" y="760.0" />
+      <point x="443.07142857142856" y="760.0" />
+      <point x="-14.428571428571445" y="15.0" />
+    </edge>
+    <edge source="java.lang.annotation.Target" target="java.lang.annotation.Retention">
+      <point x="0.0" y="-15.0" />
+      <point x="1359.2916666666665" y="150.0" />
+      <point x="1375.7916666666665" y="150.0" />
+      <point x="-21.75" y="15.0" />
+    </edge>
+    <edge source="java.lang.annotation.Target" target="java.lang.annotation.Annotation">
+      <point x="-23.333333333333258" y="-15.0" />
+      <point x="1335.9583333333335" y="70.0" />
+      <point x="1358.8333333333333" y="70.0" />
+      <point x="-7.9166666666667425" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.RequestMapping" target="java.lang.annotation.Target">
+      <point x="-44.0" y="-15.0" />
+      <point x="1415.0" y="240.0" />
+      <point x="1368.0416666666665" y="240.0" />
+      <point x="8.75" y="15.0" />
+    </edge>
+    <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Target">
+      <point x="-7.25" y="15.0" />
+      <point x="1390.2916666666665" y="150.0" />
+      <point x="1382.625" y="150.0" />
+      <point x="23.333333333333258" y="-15.0" />
+    </edge>
+    <edge source="com.hyh.entity.ArchivesEntity" target="com.hyh.annotation.EntityTable">
+      <point x="27.75" y="-15.0" />
+      <point x="83.25" y="390.0" />
+      <point x="539.75" y="390.0" />
+      <point x="-41.5625" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.MonitorDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="876.5" y="565.0" />
+      <point x="493.0" y="565.0" />
+      <point x="36.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.MedicalController" target="com.hyh.annotation.RequestMapping">
+      <point x="-34.0" y="-15.0" />
+      <point x="2056.0" y="330.0" />
+      <point x="1516.75" y="330.0" />
+      <point x="57.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.DoctorEntity" target="com.hyh.common.BaseEntity">
+      <point x="-25.75" y="-15.0" />
+      <point x="906.75" y="330.0" />
+      <point x="450.75" y="330.0" />
+      <point x="39.8125" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.RecordEntity" target="com.hyh.annotation.EntityTable">
+      <point x="26.25" y="-15.0" />
+      <point x="457.75" y="420.0" />
+      <point x="575.375" y="420.0" />
+      <point x="-5.9375" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.DoctorController" target="com.hyh.annotation.RequestMapping">
+      <point x="-32.5" y="-15.0" />
+      <point x="1767.5" y="370.0" />
+      <point x="1483.75" y="370.0" />
+      <point x="24.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.RequestMapping" target="java.lang.annotation.Retention">
+      <point x="0.0" y="-15.0" />
+      <point x="1459.0" y="250.0" />
+      <point x="1471.875" y="250.0" />
+      <point x="1471.875" y="150.0" />
+      <point x="1419.2916666666665" y="150.0" />
+      <point x="21.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.ArchivesEntity" target="com.hyh.common.BaseEntity">
+      <point x="-27.75" y="-15.0" />
+      <point x="27.75" y="360.0" />
+      <point x="371.125" y="360.0" />
+      <point x="-39.8125" y="15.0" />
+    </edge>
+    <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Annotation">
+      <point x="0.0" y="-15.0" />
+      <point x="1397.5416666666665" y="70.0" />
+      <point x="1374.6666666666667" y="70.0" />
+      <point x="7.9166666666667425" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.HospitalDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="168.0" y="575.0" />
+      <point x="430.0" y="575.0" />
+      <point x="-26.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.dao.UserDao" target="com.hyh.common.BaseDao">
+      <point x="0.0" y="-15.0" />
+      <point x="399.5" y="595.0" />
+      <point x="451.0" y="595.0" />
+      <point x="-5.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.OrderEntity" target="com.hyh.annotation.EntityTable">
+      <point x="24.5" y="-15.0" />
+      <point x="204.5" y="400.0" />
+      <point x="551.625" y="400.0" />
+      <point x="-29.6875" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.MedicalController" target="com.hyh.common.BaseController">
+      <point x="34.0" y="-15.0" />
+      <point x="2124.0" y="320.0" />
+      <point x="1725.0" y="320.0" />
+      <point x="51.625" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.RequestMapping" target="java.lang.annotation.Annotation">
+      <point x="44.0" y="-15.0" />
+      <point x="1503.0" y="250.0" />
+      <point x="1772.0257675438595" y="250.0" />
+      <point x="1772.0257675438595" y="60.0" />
+      <point x="1390.5" y="60.0" />
+      <point x="23.75" y="15.0" />
+    </edge>
+    <edge source="com.hyh.annotation.EntityTable" target="java.lang.annotation.Target">
+      <point x="31.66666666666663" y="-15.0" />
+      <point x="612.9791666666666" y="230.0" />
+      <point x="1333.0416666666665" y="230.0" />
+      <point x="-26.25" y="15.0" />
+    </edge>
+    <edge source="com.hyh.controller.LifeController" target="com.hyh.common.BaseController">
+      <point x="27.5" y="-15.0" />
+      <point x="1086.5" y="390.0" />
+      <point x="1621.75" y="390.0" />
+      <point x="-51.625" y="15.0" />
+    </edge>
+    <edge source="com.hyh.service.ArchivesService" target="com.hyh.common.BaseService">
+      <point x="0.0" y="-15.0" />
+      <point x="730.5" y="750.0" />
+      <point x="486.35714285714283" y="750.0" />
+      <point x="28.857142857142833" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.HospitalEntity" target="com.hyh.common.BaseEntity">
+      <point x="-27.75" y="-15.0" />
+      <point x="531.75" y="380.0" />
+      <point x="416.625" y="380.0" />
+      <point x="5.6875" y="15.0" />
+    </edge>
+    <edge source="com.hyh.entity.DoctorEntity" target="com.hyh.annotation.EntityTable">
+      <point x="25.75" y="-15.0" />
+      <point x="958.25" y="320.0" />
+      <point x="622.875" y="320.0" />
+      <point x="41.5625" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.39226519337016574" x="1079.2535211267605" y="322.5" />
+  <SelectedNodes>
+    <node>com.hyh.annotation.Autowired</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

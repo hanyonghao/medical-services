@@ -1,0 +1,92 @@
+.h-title {
+    background: #00a1c5;
+}
+
+.menu{
+    background: #00a1c5;
+}
+
+.menu-item{
+    width: 33.33333333333333%;
+}
+
+.container{
+    background: white;
+}
+
+.calendar-head{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.calendar-date{
+    position: relative;
+}
+
+.calendar-left{
+    width: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.calendar-right{
+    width: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.calendar-name{
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background: #00a1c5;
+    word-spacing: 3px;
+}
+
+.calendar-week,
+.calendar-item{
+    width: 14.28571428571429%;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.calendar-item{
+    line-height: 50px;
+    height: 50px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.calendar-body{
+    overflow: hidden;
+}
+
+.calendar-active{
+    background: #00a1c5!important;
+    color: white;
+}
+
+.calendar-active:hover{
+    background: #00a1c5!important;
+}
+
+.calendar-triangle{
+    background: url(../img/flag.png) bottom right no-repeat;
+}

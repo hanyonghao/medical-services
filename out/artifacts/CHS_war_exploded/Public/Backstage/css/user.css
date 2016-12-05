@@ -1,0 +1,213 @@
+.exit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    text-shadow: 0 0 1px #ccc;
+    color: #ff6666;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 2% 3%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: white;
+    -webkit-box-shadow: 0 0 12px #ccc;
+    -moz-box-shadow: 0 0 12px #ccc;
+    box-shadow: 0 0 12px #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.side {
+    width: 200px;
+    height: 100%;
+    background: #25ab8c;
+}
+
+.m-datetime {
+    height: 121px;
+    padding: 20px 0 30px 0;
+    border-bottom: 1px solid #228c6f;
+}
+
+.m-time {
+    line-height: 50px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.m-date {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.side-item {
+    line-height: 50px;
+    border-bottom: 1px solid #228c6f;
+    font-size: 14px;
+    color: white;
+    padding: 0 15px;
+}
+
+.side-item:hover {
+    background: #2ab793;
+    cursor: pointer;
+}
+
+.side-active {
+    background: #28c19f url("../img/active.png") right center no-repeat;
+}
+
+.side-active:hover {
+    background: #28c19f url("../img/active.png") right center no-repeat;
+    cursor: pointer;
+}
+
+.side-ico {
+    margin-right: 10px;
+}
+
+.content {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    right: 0;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.title {
+    line-height: 80px;
+    font-size: 24px;
+    color: #7d7d7d;
+}
+
+.title a{
+    color: #1091c0;
+}
+
+.title a:hover{
+    color: #11a8dc;
+    cursor: pointer;
+}
+
+/*表格*/
+.table table {
+    width: 100%;
+}
+
+.table td,
+.table th {
+    height: 34px;
+    border: 1px solid #b0ccbb;
+    padding: 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.table th {
+    background: #28c09e;
+    color: white;
+}
+
+.table td {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.table tbody tr:nth-child(odd) {
+
+}
+
+.table tbody tr:nth-child(even) {
+    background: #d8fff3;
+}
+
+.table-href{
+    color: #1091c0;
+}
+
+.table-href:hover{
+    color: #11a8dc;
+    cursor: pointer;
+}
+
+.table-head{
+    width: 50px;
+    height: 50px;
+}
+
+.page {
+    margin-top: 20px;
+    text-align: center;
+    cursor: default
+}
+
+.page a {
+    min-width: 30px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin: 5px 2px;
+    text-align: center;
+    font-size: 14px;
+    color: #7c7c7c
+}
+
+.page a:hover {
+    background: #e0e0e0
+}
+
+.page .except {
+    border: none
+}
+
+.page .active {
+    background: #28bf9d;
+    color: #fff;
+    cursor: default;
+    border: 1px solid #28bf9d
+}
+
+.page .active:hover {
+    background: #28bf9d
+}
+
+.page span {
+    line-height: 30px;
+    font-size: 14px;
+    margin: 0 5px;
+    color: #aaa
+}
+
+.page .search {
+    display: inline-block;
+    margin: 0 2px;
+    text-align: center;
+    font-size: 12px;
+    color: #7c7c7c
+}
+
+.page .searchPage {
+    height: 26px
+}

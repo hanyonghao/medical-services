@@ -1,0 +1,82 @@
+.h-title {
+    background: #00a1c5;
+}
+
+.menu{
+    background: #00a1c5;
+}
+
+.menu-item{
+    width: 33.33333333333333%;
+}
+
+.report{
+    padding: 15px 3%;
+}
+
+.report-item{
+    height: 100px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: white;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.report-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+}
+
+.report-item-left{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px;
+}
+
+.report-item-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.report-item-right{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    right: 0;
+    padding: 5px 7px;
+    color: #898989;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+.report-user{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #2d2d2d;
+    line-height: 24px;
+}
+
+.report-user span{
+    margin-right: 8px;
+}
+
+.report-status{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+}

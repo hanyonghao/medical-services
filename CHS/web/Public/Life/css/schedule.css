@@ -1,0 +1,222 @@
+.container{
+    background: white;
+}
+
+/** 按钮 **/
+.control{
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.control-item{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.control-active{
+    color: #28c2a0;
+    border-bottom: 2px solid #28c2a0;
+}
+
+.control-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+    text-shadow: none;
+}
+
+/** 运动建议 **/
+.schedule{
+    padding: 15px 5%;
+}
+
+.schedule-item{
+    height: 50px;
+}
+
+.schedule-item-left{
+    width: 30%;
+    line-height: 50px;
+    font-size: 14px;
+    color: #474747;
+    float: left;
+    border-right: 2px solid #0bc0ff;
+    padding-right: 10%;
+    text-align: right;
+    word-spacing:4px;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.schedule-item-right{
+    width: 70%;
+    line-height: 50px;
+    font-size: 14px;
+    color: #474747;
+    float: left;
+    padding-left: 10%;
+    word-spacing:4px;
+    letter-spacing: 3px;
+}
+
+.schedule-item-delete{
+    float: right;
+    line-height: 50px;
+    color: #bababa;
+}
+
+.schedule-item-delete:hover{
+    color: #686868;
+}
+
+.schedule-datetime{
+    font-size: 16px;
+    text-align: center;
+    word-spacing:3px;
+    letter-spacing: 2px;
+    margin: 20px 0 30px 0;
+    line-height: 40px;
+    background: #28c2a0;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.schedule-middle{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: -11px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #f2f2f2;
+    -moz-box-shadow: inset 0 0 6px #f2f2f2;
+    box-shadow: inset 0 0 6px #f2f2f2;
+}
+
+.btn-add,
+.btn-submit{
+    height: 30px;
+    width: 100px;
+    letter-spacing: 3px;
+    color: white;
+    background: #28c2a0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: none;
+    margin: 30px auto 0 auto;
+    display: block;
+    -webkit-box-shadow: inset 0 0 3px #9bf7e5;
+    -moz-box-shadow: inset 0 0 3px #9bf7e5;
+    box-shadow: inset 0 0 3px #9bf7e5;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-add:active,
+.btn-submit:active{
+    border: none;
+    background: #51dfb9;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}
+
+.schedule-item-delete{
+    outline: none;
+    cursor: pointer;
+}
+
+.schedule-item-delete:active{
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+    background: none;
+}
+
+/** 弹出框 **/
+.confirm{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: table;
+}
+
+.confirm-container{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.confirm-content{
+    width: 250px;
+    background: #e3e3e3;
+    margin: auto;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow:  0 0 3px #ccc;
+    -moz-box-shadow:  0 0 3px #ccc;
+    box-shadow:  0 0 3px #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.confirm-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.confirm-close:active{
+    color: #f5f5f5;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}
+
+.confirm-title{
+    line-height: 40px;
+    padding: 0 15px;
+    font-size: 14px;
+    color: white;
+    background: #28c2a0;
+}
+
+.confirm-form{
+    padding: 20px 15px;
+}
+
+.confirm-input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    background: white;
+    padding: 3px 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+.btn-submit{
+    width: 70px;
+    margin: 0 auto;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>社区公共卫生服务</title>
+    <link href="../Base/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="../Base/css/base.css">
+    <link rel="stylesheet" href="css/archives.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="h-title">社区公共卫生服务</div>
+        </div>
+        <div class="user">
+            <div class="u-head">
+                <div class="u-img">
+                    <img src="img/head.jpg">
+                </div>
+            </div>
+            <div class="u-name">萌妹子</div>
+        </div>
+        <div class="control">
+            <div class="control-item control-active">
+                <p class="control-text">健康档案</p>
+            </div>
+            <div class="control-item" onclick="window.location.href = 'history.html'">
+                <p class="control-text">既往病史</p>
+            </div>
+        </div>
+        <div class="archives">
+            <div class="archives-form">
+                <form action="" method="post">
+                    <input id="head-file" class="archives-file" type="file" name="headFile">
+                    <div class="archives-item">
+                        <label class="archives-label">性别 :</label>
+                        <div class="archives-group" style="padding-top: 15px;">
+                            <input id="sex-male" class="archives-radio" name="sex" type="radio" value="男"/> <label for="sex-male">男</label>
+                            <input id="sex-female" class="archives-radio" name="sex" type="radio" value="女"/> <label for="sex-female">女</label>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">血型 :</label>
+                        <div class="archives-group" style="padding: 10px 10px 10px 0;">
+                            <select class="archives-select" name="bloodType">
+                                <option value="A型">A型</option>
+                                <option value="B型">B型</option>
+                                <option value="AB型">AB型</option>
+                                <option value="O型">O型</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">出生日期 :</label>
+                        <div class="archives-group">
+                            <input class="archives-input" type="date" autocomplete="off" placeholder="请在此输入..."/>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">身份证 :</label>
+                        <div class="archives-group">
+                            <input class="archives-input" type="text" autocomplete="off" placeholder="请在此输入..."/>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">身高 :</label>
+                        <div class="archives-group">
+                            <input class="archives-input" type="number" autocomplete="off" placeholder="请在此输入..."/>
+                            <div class="archives-unit">cm</div>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">籍贯 :</label>
+                        <div class="archives-group">
+                            <input class="archives-input" type="text" autocomplete="off" placeholder="请在此输入..."/>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">手机号 :</label>
+                        <div class="archives-group">
+                            <input class="archives-input" type="text" size="11" autocomplete="off" placeholder="请在此输入..."/>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">省 :</label>
+                        <div class="archives-group" style="padding: 10px 10px 10px 0;">
+                            <select class="archives-select" name="bloodType">
+                                <option value="A型">广东</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">市 :</label>
+                        <div class="archives-group" style="padding: 10px 10px 10px 0;">
+                            <select class="archives-select" name="bloodType">
+                                <option value="A型">广州</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">区 :</label>
+                        <div class="archives-group" style="padding: 10px 10px 10px 0;">
+                            <select class="archives-select" name="bloodType">
+                                <option value="A型">番禺</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="archives-item">
+                        <label class="archives-label">住址 :</label>
+                        <div class="archives-group">
+                            <input class="archives-input" type="text" autocomplete="off" placeholder="请在此输入..."/>
+                        </div>
+                    </div>
+                    <div class="archives-item archives-submit">
+                        <button class="btn-submit" type="button">保存</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="menu">
+            <div class="menu-item" onclick="window.location.href = '../Index/index.html'">
+                <p class="menu-ico icon-home"></p>
+                <p class="menu-text">资讯</p>
+            </div>
+            <div class="menu-item" onclick="window.location.href = '../Medical/index.html'">
+                <p class="menu-ico icon-stethoscope"></p>
+                <p class="menu-text">医疗</p>
+            </div>
+            <div class="menu-item" onclick="window.location.href = '../Life/guidance.html'">
+                <p class="menu-ico icon-dashboard"></p>
+                <p class="menu-text">生活</p>
+            </div>
+            <div class="menu-item text-active">
+                <p class="menu-ico icon-user"></p>
+                <p class="menu-text">我</p>
+            </div>
+        </div>
+    </div>
+    <div class="btn-top icon-upload"></div>
+    <script src="../Extend/JQuery/jquery-1.10.1.min.js"></script>
+    <script src="../Base/js/base.js"></script>
+    <script src="js/archives.js"></script>
+</body>
+</html>

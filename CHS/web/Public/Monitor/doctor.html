@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>社区公共卫生服务</title>
+    <link href="../Base/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="../Base/css/base.css">
+    <link rel="stylesheet" href="css/doctor.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="h-title">社区公共卫生服务</div>
+        </div>
+        <div class="doctor">
+            <div class="doctor-head">
+                <div class="doctor-title">医生预约</div>
+                <div class="btn-back icon-reply" onclick="history.go(-1);"></div>
+                <div class="btn-order icon-time" onclick="window.location.href = 'order.html'"></div>
+            </div>
+            <div class="doctor-body">
+                <div class="doctor-item">
+                    <div class="doctor-item-left">
+                        <img src="img/d_01.jpg" />
+                    </div>
+                    <div class="doctor-item-right">
+                        <div class="doctor-name">张晓明<span class="doctor-num">（200837138971053）</span></div>
+                        <div class="doctor-mobile">手机号：13600000000</div>
+                        <div class="doctor-tag">
+                            <div class="doctor-tag-item">医师</div>
+                            <div class="doctor-tag-item">儿科</div>
+                            <div class="doctor-tag-item">骨科</div>
+                        </div>
+                        <div class="doctor-score">9.1分</div>
+                    </div>
+                </div>
+                <div class="doctor-item">
+                    <div class="doctor-item-left">
+                        <img src="img/d_02.jpg" />
+                    </div>
+                    <div class="doctor-item-right">
+                        <div class="doctor-name">丁亚琴<span class="doctor-num">（210130531000093）</span></div>
+                        <div class="doctor-mobile">手机号：13600000000</div>
+                        <div class="doctor-tag">
+                            <div class="doctor-tag-item">医师</div>
+                            <div class="doctor-tag-item">皮肤科</div>
+                            <div class="doctor-tag-item">眼科</div>
+                        </div>
+                        <div class="doctor-score">8.8分</div>
+                    </div>
+                </div>
+                <div class="doctor-item">
+                    <div class="doctor-item-left">
+                        <img src="img/d_03.jpg" />
+                    </div>
+                    <div class="doctor-item-right">
+                        <div class="doctor-name">林子煌<span class="doctor-num">（110360729000186）</span></div>
+                        <div class="doctor-mobile">手机号：13600000000</div>
+                        <div class="doctor-tag">
+                            <div class="doctor-tag-item">主治医师</div>
+                            <div class="doctor-tag-item">皮肤科</div>
+                            <div class="doctor-tag-item">风疹</div>
+                            <div class="doctor-tag-item">麻疹</div>
+                        </div>
+                        <div class="doctor-score">9.6分</div>
+                    </div>
+                </div>
+                <div class="doctor-item">
+                    <div class="doctor-item-left">
+                        <img src="img/d_04.jpg" />
+                    </div>
+                    <div class="doctor-item-right">
+                        <div class="doctor-name">王兴<span class="doctor-num">（1411502000000418）</span></div>
+                        <div class="doctor-mobile">手机号：13600000000</div>
+                        <div class="doctor-tag">
+                            <div class="doctor-tag-item">副主任医师</div>
+                            <div class="doctor-tag-item">中医综合科</div>
+                        </div>
+                        <div class="doctor-score">9.7分</div>
+                    </div>
+                </div>
+                <div class="doctor-item">
+                    <div class="doctor-item-left">
+                        <img src="img/d_05.jpg" />
+                    </div>
+                    <div class="doctor-item-right">
+                        <div class="doctor-name">罗宁<span class="doctor-num">（21041150300016）</span></div>
+                        <div class="doctor-mobile">手机号：13600000000</div>
+                        <div class="doctor-tag">
+                            <div class="doctor-tag-item">泌尿外科</div>
+                            <div class="doctor-tag-item">男科</div>
+                            <div class="doctor-tag-item">性病科</div>
+                        </div>
+                        <div class="doctor-score">8.9分</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="confirm" style="display: none;">
+        <div class="confirm-container">
+            <div class="confirm-content">
+                <div class="confirm-close icon-remove"></div>
+                <div class="confirm-title">添加预约</div>
+                <div class="confirm-form">
+                    <form action="" method="post">
+                        <input class="confirm-input" type="date" name="time" autocomplete="off" placeholder="预约日期">
+                        <input class="confirm-input" type="text" name="value" autocomplete="off" placeholder="病情概述">
+                        <button class="btn-submit" type="button">添加</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Extend/JQuery/jquery-1.10.1.min.js"></script>
+    <script src="js/doctor.js"></script>
+</body>
+</html>

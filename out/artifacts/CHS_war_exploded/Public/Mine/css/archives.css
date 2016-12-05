@@ -1,0 +1,201 @@
+/** 用户信息 **/
+.user{
+    height: 150px;
+    background: #28c2a0;
+}
+
+.u-head{
+    height: 100px;
+    padding: 20px 0 2px 0;
+    cursor: pointer;
+}
+
+.u-head:active{
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+}
+
+.u-img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border: 2px solid #2bd8b4;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    padding: 2px;
+}
+
+.u-img img{
+    width: 72px;
+    height: 72px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+}
+
+.u-name{
+    line-height: 42px;
+    text-align: center;
+    color: white;
+}
+
+/** 按钮 **/
+.control{
+    height: 40px;
+    background: #26ae8e;
+}
+
+.control-item{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border-right: 1px solid #28c2a0;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.control-item:last-child{
+    border-right: none;
+}
+
+.control-item:active{
+    background: #23a486;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+}
+
+.control-active{
+    background: #efefef;
+    color: #28c2a0;
+    font-weight: bold;
+}
+
+.control-active:active{
+    background: #efefef;
+    cursor: default;
+}
+
+/** 健康档案 **/
+.archives{
+    padding: 15px;
+    overflow: hidden;
+}
+
+.archives-form{
+    background: white;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+}
+
+.archives-item{
+    height: 50px;
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+}
+
+.archives-item:last-child{
+    border-bottom: none;
+}
+
+.archives-label{
+    width: 80px;
+    line-height:50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #3b3b3b;
+    text-align: right;
+}
+
+.archives-group{
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    right: 0;
+}
+
+.archives-input{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+    border: none;
+    background: none;
+    outline: none;
+    -webkit-appearance: none; /** 消除组件默认样式 **/
+}
+
+.archives-radio{
+    margin-left: 12px;
+}
+
+.archives-group label{
+    font-size: 14px;
+}
+
+#sex-female{
+    margin-left: 35%;
+}
+
+.archives-select{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 10px;
+    -webkit-appearance: none;
+}
+
+.archives-unit{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #656565;
+}
+
+.archives-file{
+    width: 0;
+    height: 0;
+    display: none;
+    opacity: 0;
+}
+
+.archives-submit{
+    padding: 10px 0;
+}
+
+.btn-submit{
+    height: 30px;
+    width: 100px;
+    letter-spacing: 3px;
+    color: white;
+    background: #28c2a0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    -webkit-box-shadow: inset 0 0 3px #9bf7e5;
+    -moz-box-shadow: inset 0 0 3px #9bf7e5;
+    box-shadow: inset 0 0 3px #9bf7e5;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-submit:active{
+    border: none;
+    background: #51dfb9;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}

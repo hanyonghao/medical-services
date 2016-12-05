@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.4">
+	
+	<!-- 过滤器   -->
+	<filter>
+		<filter-name>baseFilter</filter-name>
+		<filter-class>com.hyh.common.BaseFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>baseFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  
+  	<!-- Session过期时间   -->
+	<session-config>
+		<session-timeout>60</session-timeout>
+	</session-config>
+</web-app>

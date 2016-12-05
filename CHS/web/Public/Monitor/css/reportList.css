@@ -1,0 +1,76 @@
+.report-head{
+    line-height: 45px;
+    background: #28c2a0;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+
+.btn-back{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    line-height: 45px;
+}
+
+.btn-report{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    line-height: 45px;
+}
+
+.btn-back:active{
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}
+
+.report-body{
+    padding: 15px 3%;
+}
+
+.report-item{
+    height: 100px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: white;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.report-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+}
+
+.report-value{
+    font-size: 14px;
+    color: #707070;
+    letter-spacing: 2px;
+}
+
+.report-ico{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    line-height: 100px;
+    font-size: 20px;
+    color: #b2b2b2;
+}

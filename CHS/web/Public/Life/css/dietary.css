@@ -1,0 +1,100 @@
+/** 按钮 **/
+.control{
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.control-item{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.control-active{
+    color: #28c2a0;
+    border-bottom: 2px solid #28c2a0;
+}
+
+.control-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+    text-shadow: none;
+}
+
+/** 饮食推荐 **/
+.dietary{
+    padding: 2%;
+}
+
+.dietary-type{
+    width: 100%;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 2%;
+    color: #6a6a6a;
+    font-weight: bold;
+    float: left;
+}
+
+.dietary-item{
+    width: 46%;
+    margin: 2%;
+    -webkit-box-shadow: 0 0 5px #878787;
+    -moz-box-shadow: 0 0 5px #878787;
+    box-shadow: 0 0 5px #878787;
+    background: white;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.dietary-img{
+    background: #c5c5c5;
+}
+
+.dietary-img img{
+    width: 100%;
+}
+
+.dietary-text{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba( 0, 0, 0, 0.5);
+    font-size: 12px;
+    color: white;
+    padding: 2px 4px;
+}
+
+.dietary-efficacy{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: #0bc0ff;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0 5px;
+    color: white;
+    opacity: 0.9;
+}
+
+.dietary-name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 3px;
+}
+
+.dietary-view,
+.dietary-good{
+    float: right;
+    margin-left: 10px;
+}

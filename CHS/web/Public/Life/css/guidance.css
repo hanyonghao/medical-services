@@ -1,0 +1,66 @@
+/** 按钮 **/
+.control{
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.control-item{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.control-active{
+    color: #28c2a0;
+    border-bottom: 2px solid #28c2a0;
+}
+
+.control-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+    text-shadow: none;
+}
+
+/** 健康指导 **/
+.guidance{
+    max-width: 100%;
+    padding: 10px 10px 0 10px;
+}
+
+.guidance-item{
+    margin-bottom: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: white;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    position: relative;
+}
+
+.guidance-right-text{
+    padding: 10px 10px 10px 22px;
+    word-wrap:break-word; /** 自动换行 **/
+    word-break:break-all; /** 自动换行 **/
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.guidance-left-color{
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    bottom: 10px;
+    padding: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}

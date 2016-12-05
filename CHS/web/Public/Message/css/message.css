@@ -1,0 +1,91 @@
+.message-head{
+    line-height: 45px;
+    background: #28c2a0;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+
+.btn-back{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    line-height: 45px;
+}
+
+.btn-back:active{
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}
+
+.message-body{
+    padding: 15px 3%;
+}
+
+.message-item{
+    margin-bottom: 15px;
+    position: relative;
+    padding: 7px 0 0 90px;
+}
+
+.message-item-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px;
+}
+
+.message-item-left img{
+    width: 56px;
+    height: 56px;
+}
+
+.message-item-left p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #b8b8b8;
+}
+
+.message-link{
+    width: 10px;
+    height: 10px;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 71.5px;
+}
+
+.message-item-right{
+    height: 100%;
+    min-height: 57px;
+    padding: 15px 15px 25px 15px;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: white;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
+.message-datetime{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #acacac;
+    font-size: 12px;
+}

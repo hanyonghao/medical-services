@@ -1,0 +1,191 @@
+.h-title {
+    background: #00a1c5;
+}
+
+.menu{
+    background: #00a1c5;
+}
+
+.menu-item{
+    width: 33.33333333333333%;
+}
+
+.order{
+    padding: 15px 3%;
+}
+
+.order-item{
+    height: 100px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: white;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.order-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+}
+
+.order-item-left{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px;
+}
+
+.order-item-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-item-right{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    right: 0;
+    padding: 5px 7px;
+    color: #898989;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+.order-user{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #2d2d2d;
+    line-height: 24px;
+}
+
+.order-user span{
+    margin-right: 8px;
+}
+
+.order-status{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+}
+
+.order-ico{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 20px;
+    color: #ccc;
+    display: none;
+}
+
+
+/** 弹出框 **/
+.confirm{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: table;
+}
+
+.confirm-container{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.confirm-content{
+    width: 250px;
+    background: #e3e3e3;
+    margin: auto;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow:  0 0 3px #ccc;
+    -moz-box-shadow:  0 0 3px #ccc;
+    box-shadow:  0 0 3px #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.confirm-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.confirm-close:active{
+    color: #f5f5f5;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}
+
+.confirm-title{
+    line-height: 40px;
+    padding: 0 15px;
+    font-size: 14px;
+    color: white;
+    background: #3fbadd;
+}
+
+.confirm-form{
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.confirm-input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    background: white;
+    padding: 3px 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+.btn-submit{
+    height: 30px;
+    width: 70px;
+    letter-spacing: 3px;
+    color: white;
+    background: #28c2a0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: none;
+    -webkit-box-shadow: inset 0 0 3px #9bf7e5;
+    -moz-box-shadow: inset 0 0 3px #9bf7e5;
+    box-shadow: inset 0 0 3px #9bf7e5;
+    cursor: pointer;
+    outline: none;
+    margin: 0 8px;
+}
+
+.btn-submit:active{
+    border: none;
+    background: #51dfb9;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}

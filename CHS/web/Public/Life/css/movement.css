@@ -1,0 +1,108 @@
+
+/** 按钮 **/
+.control{
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.control-item{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.control-active{
+    color: #28c2a0;
+    border-bottom: 2px solid #28c2a0;
+}
+
+.control-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+    text-shadow: none;
+}
+
+/** 运动建议 **/
+.movement{
+    padding-top: 50px;
+}
+
+.sport{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: #dfdfdf;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.sport-item{
+    width: 50%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.sport-item:active{
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+}
+
+.sport-active{
+    background: #28c2a0;
+}
+
+.sport-item img{
+    height: 70%;
+}
+
+.sport-item p{
+    font-size: 14px;
+    color: white;
+}
+
+.sport-tips{
+    margin-top: 50px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.tips-item{
+    height: 55px;
+    padding: 0 10px;
+    border-bottom: 1px solid #e7e7e7;
+    background: white;
+}
+
+.tips-name{
+    line-height: 55px;
+    font-size: 16px;
+    color: #454545;
+    float: left;
+}
+
+.tips-item img{
+    width: 30px;
+    float: left;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.tips-value{
+    float: right;
+    line-height: 55px;
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+

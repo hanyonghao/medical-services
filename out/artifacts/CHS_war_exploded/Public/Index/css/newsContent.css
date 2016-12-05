@@ -1,0 +1,72 @@
+.container{
+    padding: 0;
+    background: white;
+}
+
+.news-head{
+    line-height: 45px;
+    background: #28c2a0;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+
+.btn-back{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    line-height: 45px;
+}
+
+.btn-news{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    line-height: 45px;
+}
+
+.btn-back:active{
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}
+
+.news-body{
+    padding: 0 3% 15px 3%;
+}
+
+.news-content{
+    word-wrap:break-word; /** 自动换行 **/
+    word-break:break-all; /** 自动换行 **/
+    font-size: 14px;
+    color: #505050;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
+.news-content img{
+    width: 100%;
+}
+
+.news-info{
+    border-bottom: 1px solid #e7e7e7;
+    height: 30px;
+}
+
+.news-info-item{
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: #a9a9a9;
+    margin-bottom: 15px;
+}

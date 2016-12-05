@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>社区公共卫生服务 --- 医生端</title>
+    <link href="../Base/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="../Base/css/base.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="h-title">社区公共卫生服务 --- 医生端</div>
+        </div>
+        <div class="order">
+            <div class="order-item">
+                <div class="order-item-left">
+                    <img src="img/head.jpg" />
+                </div>
+                <div class="order-item-right">
+                    <div class="order-user">
+                        <span class="order-name">韩小豪</span>
+                        <span class="order-sex">男</span>
+                        <span class="order-sex">22岁</span>
+                        <span class="order-status"></span>
+                    </div>
+                    <div class="order-date">预约时间：2016-05-07</div>
+                    <div class="order-remark">概况描述：鼻塞，流鼻涕，肌肉酸痛，反胃，低烧</div>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="order-item-left">
+                    <img src="img/head.jpg" />
+                </div>
+                <div class="order-item-right">
+                    <div class="order-user">
+                        <span class="order-name">韩小豪</span>
+                        <span class="order-sex">男</span>
+                        <span class="order-sex">22岁</span>
+                        <span class="order-status" style="color: #02c545;">同意</span>
+                    </div>
+                    <div class="order-date">预约时间：2016-05-07</div>
+                    <div class="order-remark">概况描述：鼻塞，流鼻涕，肌肉酸痛，反胃，低烧</div>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="order-item-left">
+                    <img src="img/head.jpg" />
+                </div>
+                <div class="order-item-right">
+                    <div class="order-user">
+                        <span class="order-name">韩小豪</span>
+                        <span class="order-sex">男</span>
+                        <span class="order-sex">22岁</span>
+                        <span class="order-status" style="color: #c52619;">取消</span>
+                    </div>
+                    <div class="order-date">预约时间：2016-05-07</div>
+                    <div class="order-remark">概况描述：鼻塞，流鼻涕，肌肉酸痛，反胃，低烧</div>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="order-item-left">
+                    <img src="img/head.jpg" />
+                </div>
+                <div class="order-item-right">
+                    <div class="order-user">
+                        <span class="order-name">韩小豪</span>
+                        <span class="order-sex">男</span>
+                        <span class="order-sex">22岁</span>
+                        <span class="order-status" style="color: #777777;">过期</span>
+                    </div>
+                    <div class="order-date">预约时间：2016-05-07</div>
+                    <div class="order-remark">概况描述：鼻塞，流鼻涕，肌肉酸痛，反胃，低烧</div>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="order-item-left">
+                    <img src="img/head.jpg" />
+                </div>
+                <div class="order-item-right">
+                    <div class="order-user">
+                        <span class="order-name">韩小豪</span>
+                        <span class="order-sex">男</span>
+                        <span class="order-sex">22岁</span>
+                        <span class="order-status" style="color: #c5c218;">完成</span>
+                    </div>
+                    <div class="order-date">预约时间：2016-05-07</div>
+                    <div class="order-remark">概况描述：鼻塞，流鼻涕，肌肉酸痛，反胃，低烧</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="menu">
+            <div class="menu-item" onclick="window.location.href = 'index.html'">
+                <p class="menu-ico icon-table"></p>
+                <p class="menu-text">日程</p>
+            </div>
+            <div class="menu-item text-active">
+                <p class="menu-ico icon-time"></p>
+                <p class="menu-text">预约</p>
+            </div>
+            <div class="menu-item" onclick="window.location.href = 'reportList.html'">
+                <p class="menu-ico icon-bar-chart"></p>
+                <p class="menu-text">病历</p>
+            </div>
+        </div>
+    </div>
+    <div class="confirm" style="display: none;">
+        <div class="confirm-container">
+            <div class="confirm-content">
+                <div class="confirm-close icon-remove"></div>
+                <div class="confirm-title">操作</div>
+                <div class="confirm-form">
+                    <form action="" method="post">
+                        <input class="confirm-input" type="text" name="value" autocomplete="off" placeholder="反馈">
+                        <button class="btn-submit" type="button">同意</button>
+                        <button class="btn-submit" type="button" style="background: #c52619;">不同意</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn-top icon-upload"></div>
+    <script src="../Extend/JQuery/jquery-1.10.1.min.js"></script>
+    <script src="../Base/js/base.js"></script>
+    <script src="js/order.js"></script>
+</body>
+</html>

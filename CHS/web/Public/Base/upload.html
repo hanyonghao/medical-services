@@ -1,0 +1,52 @@
+<script type="text/javascript">
+    /** ajaxfileupload.js 封装**/
+    var uploadFiles =  function(options){
+        var file = ""; //返回的file
+        var flag = false; //请求是否成功
+        var content = this; //获取当前对象
+        options = $.extend({
+            initialize : function(){
+                //前置函数
+            },
+            url : appRoot+"/User/ajaxUploadFile", //处理图片的脚本路径
+            fileElementId : "", //file控件ID 和 名称
+            data : {}, //附加参数
+            callback : function(file,status){
+                //回调函数
+            }
+        }, options);
+        this.initialize = options.initialize; //前置函数
+        this.callback = options.callback; //回调函数
+        this.startUpload = function(){
+            content.initialize();
+            $.ajaxFileUpload({
+                url : options.url,   //处理图片的脚本路径
+                type : 'post',       //提交的方式
+                secureuri : false,   //是否启用安全提交
+                fileElementId : options.fileElementId,    //file控件ID 和 名称
+                dataType : 'json',  //服务器返回的数据类型
+                data : options.data,
+                success : function (data){  //提交成功后自动执行的处理函数
+                    console.log(data);
+                    flag = true;
+                    /*已修改组件的json返回错误问题
+                     var reg = /<pre.+?>(.+)<\/pre>/g; //正则表达式
+                     data.match(reg); //html转json字符串
+                     data = RegExp.$1; //获取json字符串
+                     file = $.parseJSON(data); //json字符串转对象
+
+                     */
+                    file = data;
+                },
+                error : function(data, status, e){   //提交失败自动执行的处理函数
+                    flag = false;
+                    file = e;
+                },
+                complete : function(){  //请求完成后回调函数 (请求成功或失败之后均调用)
+                    content.callback(file,flag);
+                }
+            });
+        };
+        return content;
+    };
+</script>

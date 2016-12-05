@@ -1,0 +1,153 @@
+/*社区活动*/
+.slide{
+    position: relative;
+}
+
+.swiper-pagination{
+    line-height: 30px;
+    bottom: 0!important;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: left!important;
+    padding: 0 10px;
+}
+
+.swiper-slide img{
+    width: 100%;
+    min-height: 200px;
+    display: block;
+}
+
+.s-more{
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    z-index: 300;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+/*健康资讯*/
+.news{
+    background: white;
+    padding-bottom: 15px;
+}
+
+.n-title{
+    line-height:40px;
+    background: #28c2a0;
+    font-size: 18px;
+    padding: 0 15px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.n-repeat{
+    float: right;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px #686868;
+}
+
+.n-repeat span{
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.n-item{
+    padding: 0 10px 8px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.n-item:active{
+    background: #f4f4f4;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp蓝框 **/
+}
+
+.n-item-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.n-line{
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    border: 1px solid #fbfbfb;
+}
+
+.n-item-title{
+    width: 100%;
+    line-height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+}
+
+.n-img{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    bottom: 20px;
+}
+
+.n-img-item{
+    width: 32%;
+    height: 100%;
+    margin: 0 0.5%;
+    float: left;
+    overflow: hidden;
+}
+
+.n-img-item img{
+    width: 100%;
+    border: 1px solid #fbfbfb;
+}
+
+.n-item-msg{
+    width: 100%;
+    line-height: 18px;
+    position: absolute;
+    bottom: -2px;
+    font-size: 12px;
+    color: #989898;
+}
+
+.n-item-source{
+    margin-left: 10px;
+}
+
+.n-item-type{
+    float: right;
+    height: 100%;
+    padding: 0 2%;
+}
+
+.n-item-type span{
+    width: 100%;
+    line-height: 18px;
+    display: block;
+    background: #0bc0ff;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 0 3px;
+}
+
+.n-tips{
+    line-height: 30px;
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 15px;
+}

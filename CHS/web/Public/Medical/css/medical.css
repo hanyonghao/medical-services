@@ -1,0 +1,92 @@
+/** 按钮 **/
+.control{
+    height: 50px;
+    background: #26ae8e;
+    border-bottom: 2px solid #28c2a0;
+}
+
+.control-item{
+    width: 33.3333333%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 7px;
+    text-shadow: 1px 1px 2px #686868;
+    border-right: 1px solid #28c2a0;
+    cursor: pointer;
+}
+
+.control-item:last-child{
+    border-right: none;
+}
+
+.control-item:active{
+    background: #23a486;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+    text-shadow: none;
+}
+
+.control-ico{
+    font-size: 20px;
+}
+
+.control-message{
+    position: relative;
+}
+
+.control-message-tips{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+/** 健康监测 **/
+.monitor-item{
+    background: white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.monitor-item-content{
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0 5px;
+}
+
+.monitor-item:last-child .monitor-item-content{
+    border-bottom: none;
+}
+
+.monitor-item-name{
+    width: 92%;
+    height: 46px;
+    line-height: 46px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.monitor-item-tips{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #ccc;
+}
+
+.monitor-item-ico{
+    float: right;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+.monitor-item:active{
+    background: #f4f4f4;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /** 消除WebApp选中时的蓝框 **/
+}
