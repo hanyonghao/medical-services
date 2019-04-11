@@ -25,7 +25,6 @@
 ![](https://hanyonghao.gitbooks.io/diary/content/Screenshot_2016-05-09-10-10-06.png)
 ![](https://hanyonghao.gitbooks.io/diary/content/20160524152457.png)
 ![](https://hanyonghao.gitbooks.io/diary/content/20160524152852.png)
-![](https://hanyonghao.gitbooks.io/diary/content/20160524152915.png)
 ![](https://hanyonghao.gitbooks.io/diary/content/20160524152923.png)
 ![](https://hanyonghao.gitbooks.io/diary/content/20160524152933.png)
 ![](https://hanyonghao.gitbooks.io/diary/content/20160524152942.png)
